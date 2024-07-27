@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "module": "dist/main.mjs",
-  "typings": "./src/index.d.ts",
+  "typings": "./index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs",
-      "types": "./src/index.d.ts"
+      "types": "./index.d.ts"
     }
   },
   "devDependencies": {
