@@ -33,6 +33,3 @@ function AAn(subject: string) {
   if ("AEIOU".split("").includes(subject.at(0)!)) return "an";
   else return "a";
 }
-for (let i = 0; i < 10; i++) {
-  console.log(generateRandomSentence());
-}

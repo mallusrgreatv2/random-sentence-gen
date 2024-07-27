@@ -1,7 +1,5 @@
-// import { eslint } from "rollup-plugin-eslint";
 import esbuild from "rollup-plugin-esbuild";
 import json from "@rollup/plugin-json";
-import dts from "rollup-plugin-dts";
 /**
  * @type {import("rollup").RollupOptions}
  */
@@ -19,13 +17,5 @@ export default [
       },
     ],
     plugins: [json(), esbuild()],
-  },
-  {
-    input: "src/index.ts",
-    output: {
-      file: "dist/index.d.ts",
-      format: "es",
-    },
-    plugins: [dts()],
   },
 ];

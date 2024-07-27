@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "module": "dist/main.mjs",
-  "typings": "./dist/index.d.ts",
+  "typings": "./src/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "types": "./src/index.d.ts"
     }
   },
   "devDependencies": {
@@ -19,9 +19,7 @@
     "eslint": "^9.8.0",
     "globals": "^15.8.0",
     "rollup": "^4.19.1",
-    "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
-    "rollup-plugin-eslint": "^7.0.0",
     "typescript": "^5.5.4",
     "typescript-eslint": "^7.17.0"
   },
