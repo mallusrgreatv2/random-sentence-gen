@@ -1,7 +1,7 @@
 {
   "name": "random-sentence-gen",
   "version": "1.0.4",
-  "main": "dist/index.jcs",
+  "main": "dist/index.cjs",
   "license": "MIT",
   "module": "dist/index.mjs",
   "typings": "./index.d.ts",
@@ -10,12 +10,12 @@
     ".": {
       "types": "./index.d.ts",
       "require": {
-        "default": "./dist/index.cjs",
-        "types": "./index.d.ts"
+        "types": "./index.d.ts",
+        "default": "./dist/index.cjs"
       },
       "import": {
-        "default": "./dist/index.mjs",
-        "types": "./index.d.mts"
+        "types": "./index.d.mts",
+        "default": "./dist/index.mjs"
       }
     }
   },
