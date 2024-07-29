@@ -1,6 +1,6 @@
 {
   "name": "random-sentence-gen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.jcs",
   "license": "MIT",
   "module": "dist/index.mjs",
